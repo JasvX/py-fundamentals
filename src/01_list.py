@@ -4,7 +4,7 @@
 # name_list = ["valores", "separados", "por", "comas"]
 
 list_str = ["uno", "dos", "tres"]
-print(list_str)
+print("list_str =", list_str)
 
 list_n = [1, 2, 3, 4]
 print(list_n)
@@ -37,5 +37,5 @@ print()
 print("remove")
 print("my_list =", my_list)
 my_list.remove(5)
-print("my_list.remove():", my_list)
+print("my_list.remove(5):", my_list)
 

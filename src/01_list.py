@@ -40,26 +40,3 @@ my_list.remove(5)
 print("my_list.remove(5):", my_list)
 print()
 
-# for loop
-for e in my_list:
-  print(e)
-  
-print()
-  
-# break, continue
-for e in my_list:
-  if e > 4:
-    break
-  print(e)
-  
-print()
-
-for e in my_list:
-  if e == 4:
-    continue
-  print(e)
-  
-
-  
-
-

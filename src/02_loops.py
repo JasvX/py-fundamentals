@@ -7,7 +7,7 @@ for e in my_list:
   
 print()
   
-# break, continue
+# break
 for e in my_list:
   if e > 4:
     break
@@ -15,10 +15,21 @@ for e in my_list:
   
 print()
 
+
+#continue
 for e in my_list:
   if e == 4:
     continue
   print(e)
+  
+print()
+  
+#while loop
+i = 0
+while i < 10:
+  print(i)
+  i += 2
+
   
 
   
